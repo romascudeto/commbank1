@@ -8,7 +8,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("n : ");
         n = input.nextInt();
-        while (n < 0 || n > 100) {
+        while (n < 1 || n > 100) {
             System.out.println("----------------");
             System.out.println("n out of range !");
             System.out.println("----------------");
